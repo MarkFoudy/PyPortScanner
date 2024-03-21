@@ -37,11 +37,16 @@ Navigate to the Project Directory: Once the cloning process is complete, navigat
 Usage of PyPortScanner:
  -H allows the user to specify either an IP address or a domain name of a target to be scanned
 ```bash
-
-![image](https://github.com/MarkFoudy/PyPortScanner/assets/29990433/e5a5349d-e65b-4c8c-a559-c2b2427fcace)
-
+./pyportscan -H 172.17.0.2
 ```
-
+-f allows the user to provide a text file list of IP addresses or domain names to be scanned in series.
+```bash
+./pyportscan -f IPlist.txt
+```
+‘-p’ allows user to provide a comma-separated list of ports to be scanned.
+```bash
+./pyportscan -p 20-23,80,135-139,386
+```
 ## Contributing
 
 If you're interested in contributing to the PyPortScanner project, please take a moment to review the contributing guidelines. This might include steps for submitting pull requests, reporting bugs, or requesting new features.
