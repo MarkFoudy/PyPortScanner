@@ -30,16 +30,17 @@ This command downloads the PyPortScanner project to your current directory.
 
 Navigate to the Project Directory: Once the cloning process is complete, navigate to the project directory with:
 
+## Usage
 
+# Options
+
+Usage of PyPortScanner:
+ -H allows the user to specify either an IP address or a domain name of a target to be scanned
 ```bash
-cd PyPortScanner
-```
-Run the PyPortScanner. 
-```bash
- python pyportscanner.py
-```
 
+![image](https://github.com/MarkFoudy/PyPortScanner/assets/29990433/e5a5349d-e65b-4c8c-a559-c2b2427fcace)
 
+```
 
 ## Contributing
 
