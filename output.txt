@@ -1,0 +1,5 @@
+[-] Hostname '172.17.0.2': 
+[+] 139/udp closed
+
+Port: 139 NetBIOS itself is not a protocol but is typically used in combination with IP with the NetBIOS over TCP/IP (NBT) protocol. NBT has long been the central protocol used to interconnect Microsoft Windows machines.
+
