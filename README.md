@@ -19,7 +19,35 @@ One of the key accomplishments of this project is the ability to provide port in
 
 Note: This README file describes the PyPortScanner project, its objectives, roadblocks encountered, and additional functionality implemented. For detailed instructions on how to use the tool, please refer to the documentation or comments within the source code. PyPortScanner is a port scanner written in Python which can be used to scan both TCP and UDP ports.  
 
-## Installation
+# Installation
+Option 1: Download the Code Directly from GitHub
+
+    Navigate to the Repository: Go to the GitHub page for the PyPortScanner project: PyPortScanner GitHub Repository.
+
+    Download the Repository: Click on the Code button, then select Download ZIP.
+
+    Extract the Files: Once the download is complete, extract the ZIP file to your desired location.
+
+    Run the Program:
+        Open a terminal or command prompt.
+        Navigate to the directory where you extracted the files.
+        Before running the program, ensure you have Python installed on your system. This project is likely designed to run with Python 3.x.
+        Install any dependencies if listed in a requirements.txt file by running pip install -r requirements.txt.
+        Execute the program by running python pyportscanner.py (replace pyportscanner.py with the correct script name if different).
+
+Option 2: Clone the Repository Using Git
+
+    Open a Terminal/Command Prompt: Ensure you have Git installed on your system.
+
+    Clone the Repository:
+        Run the command gh repo clone MarkFoudy/PyPortScanner to clone the repository directly using GitHub CLI, or use git clone https://github.com/MarkFoudy/PyPortScanner.git if you're not using GitHub CLI.
+
+    Navigate to the Project Directory: cd PyPortScanner
+
+    Install Dependencies: If there's a requirements.txt file, install the required Python packages using pip install -r requirements.txt.
+
+    Run the Program: Execute the script with python pyportscanner.py (adjust the script name as necessary).
+
 Just download the code and run it.
 ```bash
 https://github.com/MarkFoudy/PyPortScanner.git
