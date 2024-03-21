@@ -34,8 +34,8 @@ Navigate to the Project Directory: Once the cloning process is complete, navigat
 
 # Options
 
-Usage of PyPortScanner:
- -H allows the user to specify either an IP address or a domain name of a target to be scanned
+# Usage of PyPortScanner:
+ -'H' allows the user to specify either an IP address or a domain name of a target to be scanned
 ```bash
 ./pyportscan -H 172.17.0.2
 ```
