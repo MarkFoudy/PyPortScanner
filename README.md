@@ -26,11 +26,6 @@ To clone the PyPortScanner project and run it on your local machine, follow thes
 ```git
 git clone https://github.com/MarkFoudy/PyPortScanner.git
 ```
-This command downloads the PyPortScanner project to your current directory.
-
-Navigate to the Project Directory: Once the cloning process is complete, navigate to the project directory with:
-
-## Usage
 
 # Options
 
