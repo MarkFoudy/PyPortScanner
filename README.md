@@ -39,14 +39,31 @@ Navigate to the Project Directory: Once the cloning process is complete, navigat
 ```bash
 ./pyportscan -H 172.17.0.2
 ```
--f allows the user to provide a text file list of IP addresses or domain names to be scanned in series.
+-'f' allows the user to provide a text file list of IP addresses or domain names to be scanned in series.
 ```bash
 ./pyportscan -f IPlist.txt
 ```
-‘-p’ allows user to provide a comma-separated list of ports to be scanned.
+-‘p’ allows user to provide a comma-separated list of ports to be scanned.
 ```bash
 ./pyportscan -p 20-23,80,135-139,386
 ```
+‘-u’ allows the script to run only a UDP scan on specific ports selected by user
+```bash
+./pyportscan -u 22,53
+```
+‘-t’ allows the script to run only a TCP scan on specific ports selected by user.
+```bash
+./pyportscan -t 1000-2000
+```
+‘o’ allows the user to specify a filename where output scan data can be stored and viewed after execution.
+```bash
+./pyportscan -o output.txt
+```
+Each of these options can be used together or in combination with others:
+```bash
+./pyportscan -f IPlist.txt -p 20-23,80,135-139,386 -o output.txt
+```
+
 ## Contributing
 
 If you're interested in contributing to the PyPortScanner project, please take a moment to review the contributing guidelines. This might include steps for submitting pull requests, reporting bugs, or requesting new features.
